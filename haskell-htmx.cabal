@@ -15,8 +15,12 @@ common common
     , base   <5
     , bytestring
     , serialise
-    , wai
+    , scotty
+    , scotty-cookie
     , warp
+    , uuid
+    , aeson
+    , text
 
   default-language: GHC2021
   ghc-options:

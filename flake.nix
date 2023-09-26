@@ -12,7 +12,6 @@
 
       haskellExtend = hpFinal: hpPrev: {
         haskell-htmx = hpPrev.callCabal2nix "haskell-htmx" self { };
-
       };
       hsPkgs = pkgs.hspkgs.extend haskellExtend;
 
